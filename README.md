@@ -7,55 +7,8 @@ Lovelace custom card for the [Chicken Flock](https://github.com/ChavoDeLa/ha-chi
 
 > **Requires the Chicken Flock integration to be installed first.**
 > Install it from HACS → Integrations, or manually from [ha-chicken-flock](https://github.com/ChavoDeLa/ha-chicken-flock).
+> Installation instructions for THIS CARD can also be found in the integration README file
 ---
-
-## Installation via HACS
-
-1. In HACS, go to **Frontend → ⋮ → Custom repositories**
-2. Add `https://github.com/ChavoDeLa/ha-chicken-flock-card` as **Lovelace**
-3. Find **Chicken Flock Card** and install
-4. Refresh your browser
-
-HACS will automatically place the card in `config/www/` and manage updates.
-
----
-
-## Manual installation
-
-Copy `chicken-flock-card.js` to `config/www/`, then register it as a resource:
-
-```yaml
-lovelace:
-  resources:
-    - url: /local/chicken-flock-card.js?v=1
-      type: module
-```
-
----
-
-## Usage
-
-Add to any dashboard:
-
-```yaml
-type: custom:chicken-flock-card
-```
-
-No configuration options required. All settings — including colour theme — are in the card's ⚙ Settings tab.
-
----
-
-## Features
-
-- **Active / All birds tabs** — flock cards with photos, breed, age, status badges, live +/− egg counters
-- **Statistics** — all-time, yearly, monthly, weekly totals; per-hen leaderboard; breakdown table with year picker
-- **History** — stacked colour bar chart filterable by year / month / week / day; ✎ Edit for correcting past records
-- **Export** — CSV, JSON, full backup and restore
-- **Import** — CSV/TSV from FLOCKSTAR or any spreadsheet tracker
-- **Theme settings** — 5 colour presets or fully custom colours
-
----
-
 ## Links
 
 - **Integration repo:** [ChavoDeLa/ha-chicken-flock](https://github.com/ChavoDeLa/ha-chicken-flock)
