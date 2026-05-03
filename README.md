@@ -7,17 +7,6 @@ Lovelace custom card for the [Chicken Flock](https://github.com/ChavoDeLa/ha-chi
 
 > **Requires the Chicken Flock integration to be installed first.**
 > Install it from HACS → Integrations, or manually from [ha-chicken-flock](https://github.com/ChavoDeLa/ha-chicken-flock).
-
----
-
-## Screenshots
-
-![Active flock view with photos and egg counters](https://raw.githubusercontent.com/ChavoDeLa/ha-chicken-flock/main/screenshots/active_tab.png)
-
-![Statistics tab showing 9,867 all-time eggs](https://raw.githubusercontent.com/ChavoDeLa/ha-chicken-flock/main/screenshots/statistics_tab.png)
-
-![History tab with stacked colour bars per hen](https://raw.githubusercontent.com/ChavoDeLa/ha-chicken-flock/main/screenshots/history_tab.png)
-
 ---
 
 ## Installation via HACS
